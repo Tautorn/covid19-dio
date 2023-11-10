@@ -35,7 +35,6 @@ function Main() {
         />
       </div>
       <Board data={data} />
-      
     </ContainerStyled>
   )
 }

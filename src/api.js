@@ -1,4 +1,4 @@
-const path = 'https://coronavirus-19-api.herokuapp.com/countries'
+const path = 'https://covid19-dio-api.vercel.app/api/country'
 
 const headers = {
   method: 'get',
@@ -7,7 +7,7 @@ const headers = {
 }
 
 function getCountry(country) {
-  return fetch(`${path}/${country}`, headers)
+  return fetch(`${path}?country=${country}`, headers)
     .then((response) => response.json())
 }
 
