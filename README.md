@@ -1,6 +1,8 @@
 
 Última atualização: 10/11/2023
 
+Hospedado em: https://covid19-dio-zeta.vercel.app/
+
 Endpoint utilizado para obter o resultado da api: https://rapidapi.com/api-sports/api/covid-193/
 
 Api utilizada no projeto hospedada em: https://covid19-dio-api.vercel.app/api/country?country=brazil
